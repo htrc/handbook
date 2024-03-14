@@ -1,0 +1,22 @@
+# Featured Worksets {#sec-4}
+
+## Ready-Made Featured Worksets
+
+|                                         |                          |               |                                                                                                                                                                                                |
+|-----------------------------------------|--------------------------|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Name**                                | Workset ID               | \# of Volumes | Description                                                                                                                                                                                    |
+| Native-authored Workset                 | 6408a5e930000067055ce2e8 | 919           | A list of works in HathiTrust authored by Native Americans, identified by Drs. Raymond Orr, Raina Heaton, Kun Lu                                                                               |
+| Comparative Literature Workset          | 6408a63a30000067055ce2e9 | 927           | A list of works in HathiTrust authored by non-Native Americans with subjects, language representation, and publicationyear similar to those in the Native- authored workset                    |
+| Native-authored Workset Sample          | 640e74be300000d90b5ce31b | 10            | 10 volume sample from the list of works authored by Native Americans in HathiTrust                                                                                                             |
+| The Black Fantastic Workset             | 642720e53300008d02a5dc9c | 90            | 90 volumes, including duplicates, of Black Fantastic fiction, identified by Drs.Seretha Williams and Clarissa West- White                                                                      |
+| History of Black Writers Workset        | 6407a1ec300000a4045ce2e7 | 2166          | Volumes found in HathiTrust written by African-American authors, as identified by the Dr. Maryemma Graham and colleagues in the University of Kansas's Project on the History of Black Writing |
+| History of Black Writers Workset Sample | 640ba4bf300000440a5ce31a | 25            | 25 sample volumes from “History of Black Writers” Workset                                                                                                                                      |
+
+
+## Individual Volumes to Explore
+
+- uva.x001016358, The children of Sisyphus by Orlando Patterson
+
+- mdp.39015016452230, Trumbull park, a novel by Frank London Brown
+
+![](images/footer.png){fig-align="center"}

@@ -1,0 +1,19 @@
+# Creating Summary Widget and Notebook {#sec-5}
+
+> *The Summary offers a brief, textual summary of the current corpus, detailing its word count, unique word count, longest and shortest document, highest and lowest vocabulary densities, readability rate*
+
+## Overview
+
+## Exploring Textual Data with the Torchlite Summary Widget
+
+In this Hackathon, we're excited to introduce participants to the "Torchlite Summary" widget, a powerful tool designed to enhance your experience with textual data analysis.
+
+Developed using Python in a Jupyter Notebook environment and leveraging the HathiTrust Research Center (HTRC) APIs, this widget offers a streamlined approach to summarizing and exploring large datasets. Whether you're analyzing literary works, historical documents, or any extensive text corpus, "Torchlite Summary" provides key insights through word frequencies, trends, and thematic overviews.
+
+We encourage all participants to utilize this tool to uncover hidden patterns, compare textual features, and drive their projects to new depths of analysis. A step-by-step guide within the notebook will help you get started, offering insights into API integration, data visualization, and customization options to tailor the tool to your specific research questions.
+
+> [Code Base of Torch lite Summary](https://github.com/htrc/torchlite-summary)
+>
+> [HathiTrust-API](https://github.com/aarthishivkumar/HathiTrust-API/blob/main/htrcpractice1.ipynb)
+
+![](images/footer.png){fig-align="center"}

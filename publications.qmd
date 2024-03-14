@@ -1,0 +1,5 @@
+# Relevant Publications {#sec-6}
+
+1. Walsh, J.A., Layne-Worthey, G., Jett, J., Capitanu, B., Organisciak, P., Dubnicek, R., and Downie, J.S.  (2023). The Library is Open!: Open Data and an Open API for the HathiTrust Digital Library. In CHR2023: Computational Humanities Research Conference. [https://ceur-ws.org/Vol-3558/paper7875.pdf](https://ceur-ws.org/Vol-3558/paper7875.pdf)
+
+![](images/footer.png){fig-align="center"}

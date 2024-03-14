@@ -1,0 +1,48 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "TORCHLITE Hackathon Handbook"
+  reader-mode: true
+  sharing: [twitter, facebook]
+  #downloads: [pdf, epub]
+
+  page-footer:
+    left: |
+      <span class='r2rsymbols-sym sym-33' style='font-size:20px!important;'>&#169;</span>2024 [HTRC](https://analytics.hathitrust.org/)
+    right: |
+      This Handbook was built with <a href="https://quarto.org/">Quarto</a>.
+  cover-image: images/cover.png
+  favicon: images/cover.png
+  site-url: https://htrc.github.io/torchlite-handbook
+  repo-url: https://github.com/htrc/torchlite-handbook
+  repo-branch: main
+  repo-actions: [edit, issue]
+  chapters:
+    - index.qmd
+    - htrc.qmd
+    - technical-background.qmd
+    - ef.qmd
+    - worksets.qmd
+    - widget.qmd
+    - publications.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - r4ds.scss
+    code-link: true
+  pdf: default
+  epub:
+    cover-image: images/cover.png
+    
+
+    
+    author-meta: "Manika Lamba"
+    include-in-header: "index.html"
+    callout-appearance: simple
+
+editor: visual
+

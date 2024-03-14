@@ -1,0 +1,13 @@
+# About HathiTrust and HTRC {.unnumbered}
+
+## HathiTrust Research Center
+
+The [HathiTrust Research Center (HTRC)](https://analytics.hathitrust.org/) enables large-scale analysis of works in the Hathi Trust Digital Library (HTDL) to facilitate the collection's non-profit research and educational uses. HTRC co-located at Indiana University and the University of Illinois at Urbana-Champaign, conducts research and development for text analysis of massive digital libraries. The Center creates and maintains a suite of tools and services for text-based, data-driven research and engages in cutting-edge research on large-scale data analysis. HTRC makes available the collection for text and data mining purposes while remaining clearly within the bounds of the fair use rights courts have recognized as applying to text analysis.
+
+## Relationship to HathiTrust
+
+HathiTrust is a partnership of academic and research institutions, offering a collection of millions of titles digitized from libraries around the world. Individual access and preservation are important concerns for Hathi Trust. It allows users to search for and build collections of digitized works, and to read those in the public domain. The Research Center focuses on the aggregate strengths: what can we learn from so many books? Digitization has enabled large-scale questions that we couldn’t ask before, and the Research Center is here to help you ask them while working within the restrictions of intellectual property law.
+
+> [**`HTRC Analytics`**](https://analytics.hathitrust.org/)
+
+![](images/footer.png){fig-align="center"}

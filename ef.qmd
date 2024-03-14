@@ -1,0 +1,89 @@
+# Extracted Features {#sec-3}
+
+## HTRC Extracted Features Dataset
+
+-   Public domain, downloadable
+-   Structured data consisting of human-supplied (catalog) metadata and algorithmically-derived features
+-   From 17.1 million volumes (i.e., not quite in sync with HTDL)
+-   Linked-data compliant (JSON-LD)
+
+## HTRC Extracted Features (EF)
+
+The features are:
+
+-   Volume- and page-level
+-   Selected data and metadata
+-   Extracted from raw text
+
+Position the researcher to begin analysis
+
+-   Some standard natural language & statistical preprocessing is already done
+
+## Per-volume features
+
+Excerpted from catalog metadata, including:
+
+-   Title
+-   Author
+-   Language
+-   Publication data
+-   Identifiers
+-   \[Subjects\]
+
+![](images/ef.png)
+
+> **HTRC Extracted Features API documentation is available [here](https://htrc.stoplight.io/docs/ef-api/06db4dc572b49-ef)**
+
+## API CALLS
+
+-   **GET** EF data for a volume by volume id
+
+    -   https://tools.htrc.illinois.edu/ef-api/volumes/{clean-htid}
+
+-   Check if a volume exists (**HEAD**)
+
+    -   https://tools.htrc.illinois.edu/ef-api/volumes/{clean-htid}
+
+-   **GET** volume metadata by volume id
+
+    -   https://tools.htrc.illinois.edu/ef-api/volumes/{clean-htid}/metadata
+
+-   **GET** subset of pages of volume by volume id
+
+    -    https://tools.htrc.illinois.edu/ef-api/volumes/{clean-htid}/pages
+
+-   Create workset (**POST**)
+
+    -   https://tools.htrc.illinois.edu/ef-api/worksets
+
+-   **DELETE** workset by workset id
+
+    -   https://tools.htrc.illinois.edu/ef-api/worksets/{workset-id}
+
+-   **GET** workset
+
+    -   https://tools.htrc.illinois.edu/ef-api/worksets/{workset-id}
+
+-    **GET** workset volumes by workset id
+
+     -   https://tools.htrc.illinois.edu/ef-api/worksets/{workset-id}/volumes
+
+-    **GET** workset volumes metadata by workset id o
+
+     -   https://tools.htrc.illinois.edu/ef-api/worksets/{workset-id}/metadata
+
+## OBSERVABLE Notebooks
+
+[OBSERVABLE Documentation](https://observablehq.com/@observablehq/documentation)
+
+[OBSERVABLE Documentation (Shorter)](https://htrc.gitbook.io/torchlite/htrc-extracted-features)
+
+- [Exploring API](https://observablehq.com/@jswatsch/torchlite-ef-api)
+
+- [Word Cloud](https://observablehq.com/@jswatsch/torchlite-workset-word-cloud)
+
+- [Contributor Map](https://observablehq.com/d/e69a3c5185393caa)
+
+
+![](images/footer.png){fig-align="center"}
+
