@@ -26,7 +26,7 @@ A **word cloud** is a visualization technique for displaying text data in which 
 
 The Word Cloud widget is being displayed using React and D3 libraries. Here's a high-level overview of how it works:
 
-#### Internal working of Word Cloud:
+#### Internal working of Word Cloud
 
 -   **Data Fetching**: The component fetches data from an external API endpoint (https://tools.htrc.illinois.edu/ef-api/worksets/\${worksetId}/volumes) using fetch API. This API returns volumes of text data along with their token counts.
 
@@ -97,7 +97,7 @@ Creating a word cloud often involves filtering out common words, also known as s
 
 This pie chart widget, similar to the word cloud widget, serves to visualize data, but in this case, it focuses on the distribution of languages within a given dataset or workset (volumes of novels).
 
-#### **Internal working of Word Cloud:**
+#### Internal working of Word Cloud
 
 -   **Data Fetching**: Data is fetched from an external API endpoint using the fetch API. In this case, the API endpoint is <https://tools.htrc.illinois.edu/ef-api/worksets/$%7BworksetId%7D/metadata>. The fetched data contains information about the languages present in the dataset.
 
