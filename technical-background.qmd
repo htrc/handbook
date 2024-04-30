@@ -1,4 +1,4 @@
-# Technical Background {#sec-2}
+# Dashboard Technical Background {#sec-2}
 
 ## About MANTIS
 
@@ -6,30 +6,32 @@ Mantis is a react admin template having aesthetics derived from ant design and c
 
 ## Technology Stack
 
-- Material UI v5 components library
-- Authentication Methods - Auth0, Firebase, JWT, AWS
-- Redux toolkit
-- React Hooks API
-- Redux & React Context API for State Management
-- React Router
-- Axios
-- Create React App
-- Code Splitting
-- CSS-in-JS
-- Multi-Language
+-   Material UI v5 components library
+-   Authentication Methods - Auth0, Firebase, JWT, AWS
+-   Redux toolkit
+-   React Hooks API
+-   Redux & React Context API for State Management
+-   React Router
+-   Axios
+-   Create React App
+-   Code Splitting
+-   CSS-in-JS
+-   Multi-Language
 
 ## Torchlight Next JS Backend API
 
 This document describes the models and API specification for the Torchlite NextJS backend, which supports the needs of the NextJS front-end interface. The Torchlite application is composed of the following components:
 
-- the NextJS-based front-end interface (what the user sees in their browser)
-- the NextJS backend API (the server-side piece of the NextJS application)
-- the Torchlite API (implements the Torchlite business logic for dashboards, filters, and data management)
-- the Extracted Features API (used for accessing Extracted Features data for volumes and worksets)
-- the Registry API (used for retrieving public and user-private worksets managed through Analytics Gateway)
+-   the NextJS-based front-end interface (what the user sees in their browser)
+-   the NextJS backend API (the server-side piece of the NextJS application)
+-   the Torchlite API (implements the Torchlite business logic for dashboards, filters, and data management)
+-   the Extracted Features API (used for accessing Extracted Features data for volumes and worksets)
+-   the Registry API (used for retrieving public and user-private worksets managed through Analytics Gateway)
 
 From the point of view of the Torchlite NextJS-based front-end interface, only the API exposed by the NextJS backend is relevant; there should be no direct communication between the front end and any of the other components outlined above.
 
 The following sections will focus on the relationship between the front-end and NextJS backend, providing details about how they should function together.
+
+> **TORCHLITE API:** [**`https://torchlite-dev-api.htrc.illinois.edu/docs#/`**](https://torchlite-dev-api.htrc.illinois.edu/docs#/ "https://torchlite-dev-api.htrc.illinois.edu/docs#/")
 
 ![](images/footer.png){fig-align="center"}

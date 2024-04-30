@@ -1,4 +1,4 @@
-# Creating Summary Widget and Notebook {#sec-5}
+# Creating Summary Widget and Notebook {#sec-6}
 
 > *The Summary offers a brief, textual summary of the current corpus, detailing its word count, unique word count, longest and shortest document, highest and lowest vocabulary densities, readability rate*
 
@@ -200,5 +200,27 @@ const text = svg
 \
 
 ![](images/pie.png){fig-align="center"}
+
+### Trends
+
+You can make a *'Volume Trends'* widget to analyze word frequency trends within a corpus of novels. Its functionality encompasses:
+
+**Data Acquisition and Processing**: Upon component initialization, the widget interacts with an API endpoint to retrieve volume data from a specified workset, typically a collection of novels. The received data is then processed to extract pertinent information, notably the frequency of words across the volumes.
+
+**Interactive Search Capability**: Users engage with the widget by inputting text either through typing or selecting from a dropdown menu. As characters are entered, the widget dynamically updates to reflect the frequency trends of words that match the entered criteria. This interactive search feature enhances user experience by facilitating rapid exploration of word frequency patterns.
+
+**Wildcard Functionality**: An additional feature provided by the widget is the ability to utilize wildcard characters. Specifically, users can employ a wildcard, such as an asterisk, to denote a partial word search. For instance, typing *c* would trigger a display of word frequency trends for all words starting with the letter *c* across the volume of novels. This wildcard functionality expands the scope of exploratory analysis, enabling users to uncover broader trends and patterns within the corpus.
+
+**Chart Rendering with D3.js**: The core of the widget's visualization lies in its utilization of D3.js, a JavaScript library for creating dynamic, interactive data visualizations in web browsers. Through D3.js, the widget constructs a visually compelling representation of word frequency trends, employing elements such as scatter plots, bar charts, and connecting lines to convey insights effectively.
+
+**Dynamic Data Updates**: As users interact with the widget, whether through typing, selecting from the dropdown, or employing wildcard characters, the displayed chart updates in real-time to reflect the evolving word frequency trends. This dynamic nature ensures that users receive immediate feedback on their inputs, fostering a responsive and engaging user experience.
+
+**Download Options**: To facilitate further analysis or sharing of insights, the widget offers users the ability to download the chart as an image file (PNG or SVG) or export the underlying data as a CSV file. This functionality enhances the widget's utility by enabling users to seamlessly integrate the generated visualizations and data into their workflows.
+
+**Additional Features**: Beyond its core functionality, the widget includes supplementary features such as tooltips, providing users with contextual information when interacting with data points on the chart. These features enhance the overall usability and informativeness of the widget, contributing to a richer and more insightful user experience.
+
+Therefore, this widget can combine sophisticated data processing, interactive search capabilities, advanced visualization techniques, and user-friendly features to offer a powerful tool for exploring and analyzing word frequency trends within a corpus of novels. Its technical underpinnings, including D3.js integration and dynamic data updates, ensure robust functionality and usability for users engaged in text analysis and exploration.
+
+![](images/trends.png){fig-align="center"}
 
 ![](images/footer.png){fig-align="center"}
