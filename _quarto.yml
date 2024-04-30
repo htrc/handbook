@@ -22,10 +22,10 @@ book:
   chapters:
     - index.qmd
     - htrc.qmd
-    - technical-background.qmd
     - ef.qmd
     - worksets.qmd
     - widget.qmd
+    - technical-background.qmd
     - publications.qmd
     - links.qmd
 
