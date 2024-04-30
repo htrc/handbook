@@ -12,7 +12,7 @@ book:
     left: |
       <span class='r2rsymbols-sym sym-33' style='font-size:20px!important;'>&#169;</span>2024 [HTRC](https://analytics.hathitrust.org/)
     right: |
-      This Handbook was built with <a href="https://quarto.org/">Quarto</a>.
+      This Handbook was developed by [Manika Lamba](https://manika-lamba.github.io/) in <a href="https://quarto.org/">Quarto</a>.
   cover-image: images/cover.png
   favicon: images/cover.png
   site-url: https://htrc.github.io/torchlite-handbook
@@ -27,6 +27,7 @@ book:
     - worksets.qmd
     - widget.qmd
     - publications.qmd
+    - links.qmd
 
 format:
   html:

@@ -1,4 +1,4 @@
-# About HathiTrust and HTRC {.unnumbered}
+# About HathiTrust and HTRC {#sec-1}
 
 ## HathiTrust Research Center
 

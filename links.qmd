@@ -1,0 +1,11 @@
+# Quick Links {#sec-8}
+
+1.  Hackathon Website: <https://htrc.github.io/torchlite-hackathon/>
+
+2.  Extracted Features API: <https://htrc.stoplight.io/docs/ef-api/>
+
+3. Extracted Features documentation: <https://go.illinois.edu/EF20_documentation/>
+
+4. TORCHLITE API: <https://torchlite-dev-api.htrc.illinois.edu/docs#//>
+
+![](images/footer.png){fig-align="center"}
