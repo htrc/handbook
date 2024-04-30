@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>TORCHLITE Hackathon Handbook - 5&nbsp; Creating Summary Widget and Notebook</title>
+<title>TORCHLITE Hackathon Handbook - 5&nbsp; Creating Summary Widgets and Notebooks</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -109,7 +109,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./widget.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Creating Summary Widget and Notebook</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./widget.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Creating Summary Widgets and Notebooks</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -192,7 +192,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./widget.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Creating Summary Widget and Notebook</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Creating Summary Widgets and Notebooks</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -217,7 +217,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#exploring-textual-data-with-the-torchlite-summary-widget" id="toc-exploring-textual-data-with-the-torchlite-summary-widget" class="nav-link active" data-scroll-target="#exploring-textual-data-with-the-torchlite-summary-widget"><span class="header-section-number">5.1</span> Exploring Textual Data with the Torchlite Summary Widget</a></li>
+  <li><a href="#exploring-textual-data-with-the-torchlite-summary-widgets" id="toc-exploring-textual-data-with-the-torchlite-summary-widgets" class="nav-link active" data-scroll-target="#exploring-textual-data-with-the-torchlite-summary-widgets"><span class="header-section-number">5.1</span> Exploring Textual Data with the Torchlite Summary Widgets</a></li>
   <li><a href="#different-visualizations" id="toc-different-visualizations" class="nav-link" data-scroll-target="#different-visualizations"><span class="header-section-number">5.2</span> Different Visualizations</a>
   <ul class="collapse">
   <li><a href="#word-cloud" id="toc-word-cloud" class="nav-link" data-scroll-target="#word-cloud"><span class="header-section-number">5.2.1</span> Word Cloud</a></li>
@@ -233,7 +233,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span id="sec-6" class="quarto-section-identifier"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Creating Summary Widget and Notebook</span></span></h1>
+<h1 class="title"><span id="sec-6" class="quarto-section-identifier"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Creating Summary Widgets and Notebooks</span></span></h1>
 </div>
 
 
@@ -251,8 +251,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <blockquote class="blockquote">
 <p><em>The Summary offers a brief, textual summary of the current corpus, detailing its word count, unique word count, longest and shortest document, highest and lowest vocabulary densities, readability rate</em></p>
 </blockquote>
-<section id="exploring-textual-data-with-the-torchlite-summary-widget" class="level2" data-number="5.1">
-<h2 data-number="5.1" class="anchored" data-anchor-id="exploring-textual-data-with-the-torchlite-summary-widget"><span class="header-section-number">5.1</span> Exploring Textual Data with the Torchlite Summary Widget</h2>
+<section id="exploring-textual-data-with-the-torchlite-summary-widgets" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="exploring-textual-data-with-the-torchlite-summary-widgets"><span class="header-section-number">5.1</span> Exploring Textual Data with the Torchlite Summary Widgets</h2>
 <p>In this Hackathon, we’re excited to introduce participants to the “Torchlite Summary” widget, a powerful tool designed to enhance your experience with textual data analysis.</p>
 <p>Developed using Python in a Jupyter Notebook environment and leveraging the HathiTrust Research Center (HTRC) APIs, this widget offers a streamlined approach to summarizing and exploring large datasets. Whether you’re analyzing literary works, historical documents, or any extensive text corpus, “Torchlite Summary” provides key insights through word frequencies, trends, and thematic overviews.</p>
 <p>We encourage all participants to utilize this tool to uncover hidden patterns, compare textual features, and drive their projects to new depths of analysis. A step-by-step guide within the notebook will help you get started, offering insights into API integration, data visualization, and customization options to tailor the tool to your specific research questions.</p>
@@ -448,6 +448,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="exploring-textual-data-with-notebooks" class="level2" data-number="5.3">
 <h2 data-number="5.3" class="anchored" data-anchor-id="exploring-textual-data-with-notebooks"><span class="header-section-number">5.3</span> Exploring Textual Data with Notebooks</h2>
+<ul>
+<li><p><strong>Wordshift Graph</strong>: <a href="https://colab.research.google.com/drive/14O7zxt8J7rVMvDrTqJpxWD7cnkxXNzw1?usp=sharing" class="uri">https://colab.research.google.com/drive/14O7zxt8J7rVMvDrTqJpxWD7cnkxXNzw1?usp=sharing</a></p></li>
+<li><p><strong>Exploring API</strong>: <a href="https://observablehq.com/@jswatsch/torchlite-ef-api" class="uri">https://observablehq.com/@jswatsch/torchlite-ef-api</a></p></li>
+<li><p><strong>Word Cloud</strong>: <a href="https://observablehq.com/@jswatsch/torchlite-workset-word-cloud" class="uri">https://observablehq.com/@jswatsch/torchlite-workset-word-cloud</a></p></li>
+<li><p><strong>Contributor Map</strong>: <a href="https://observablehq.com/d/e69a3c5185393caa" class="uri">https://observablehq.com/d/e69a3c5185393caa</a></p></li>
+</ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/footer.png" class="img-fluid figure-img"></p>

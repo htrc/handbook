@@ -1,8 +1,8 @@
-# Creating Summary Widget and Notebook {#sec-6}
+# Creating Summary Widgets and Notebooks {#sec-6}
 
 > *The Summary offers a brief, textual summary of the current corpus, detailing its word count, unique word count, longest and shortest document, highest and lowest vocabulary densities, readability rate*
 
-## Exploring Textual Data with the Torchlite Summary Widget
+## Exploring Textual Data with the Torchlite Summary Widgets
 
 In this Hackathon, we're excited to introduce participants to the "Torchlite Summary" widget, a powerful tool designed to enhance your experience with textual data analysis.
 
@@ -223,6 +223,12 @@ Therefore, this widget can combine sophisticated data processing, interactive se
 
 ## Exploring Textual Data with Notebooks
 
+-   **Wordshift Graph**: <https://colab.research.google.com/drive/14O7zxt8J7rVMvDrTqJpxWD7cnkxXNzw1?usp=sharing>
 
+- **Exploring API**: <https://observablehq.com/@jswatsch/torchlite-ef-api>
+
+- **Word Cloud**: <https://observablehq.com/@jswatsch/torchlite-workset-word-cloud>
+
+- **Contributor Map**: <https://observablehq.com/d/e69a3c5185393caa>
 
 ![](images/footer.png){fig-align="center"}
