@@ -2,8 +2,6 @@
 
 > *The Summary offers a brief, textual summary of the current corpus, detailing its word count, unique word count, longest and shortest document, highest and lowest vocabulary densities, readability rate*
 
-## Overview
-
 ## Exploring Textual Data with the Torchlite Summary Widget
 
 In this Hackathon, we're excited to introduce participants to the "Torchlite Summary" widget, a powerful tool designed to enhance your experience with textual data analysis.
@@ -222,5 +220,9 @@ You can make a *'Volume Trends'* widget to analyze word frequency trends within 
 Therefore, this widget can combine sophisticated data processing, interactive search capabilities, advanced visualization techniques, and user-friendly features to offer a powerful tool for exploring and analyzing word frequency trends within a corpus of novels. Its technical underpinnings, including D3.js integration and dynamic data updates, ensure robust functionality and usability for users engaged in text analysis and exploration.
 
 ![](images/trends.png){fig-align="center"}
+
+## Exploring Textual Data with Notebooks
+
+
 
 ![](images/footer.png){fig-align="center"}
