@@ -231,4 +231,10 @@ Therefore, this widget can combine sophisticated data processing, interactive se
 
 - **Contributor Map**: <https://observablehq.com/d/e69a3c5185393caa>
 
+- **Exploring EF API**: <https://github.com/aarthishivkumar/HathiTrust-API/blob/main/htrcpractice1.ipynb>
+
+- **Summary Widget**: <https://github.com/htrc/torchlite-summary>
+
+- **Trends Standalone HTML Page**: <https://github.com/htrc/torchlite-trends>
+
 ![](images/footer.png){fig-align="center"}
