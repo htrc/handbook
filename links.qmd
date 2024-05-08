@@ -8,4 +8,8 @@
 
 4. TORCHLITE API: <https://torchlite-dev-api.htrc.illinois.edu/docs#//>
 
+5. Summary Widget: <https://github.com/htrc/torchlite-summary>
+
+6. Trends Standalone HTML Page: <https://github.com/htrc/torchlite-trends>
+
 ![](images/footer.png){fig-align="center"}
