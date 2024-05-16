@@ -6,9 +6,6 @@ It is a next-generation Web-based, interactive visualization and analytical tool
 
 Through this hackathon, we aim to develop and promote these tools and the API. The [EF dataset](https://analytics.hathitrust.org/datasets) contains nearly 3 trillion tokens representing over 6 billion pages, making it arguably the largest open dataset of its kind readily available to digital humanities and other scholars in the world.
 
-**Please use <https://perma.cc/> to cite the TORCHLITE dashboard/widgets/notebooks.**
-
-
 # Potential Use Cases
 
 ## Searching and visualizing specific words in a workset widget
