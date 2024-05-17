@@ -1,23 +1,22 @@
 # Extracted Features {#sec-3}
 
-## HTRC Extracted Features Dataset
+## HTRC Extracted Features (EF) Dataset
 
--   Public domain, downloadable
--   Structured data consisting of human-supplied (catalog) metadata and algorithmically-derived features
--   From 17.1 million volumes (i.e., not quite in sync with HTDL)
+-   Open access under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/), and freely [downloadable](https://analytics.hathitrust.org/datasets)
+-   Structured data consisting of human-created (catalog) metadata and algorithmically-derived features
+-   Representing 17.1 million volumes, including those still under copyright (i.e., not quite in sync with the HathiTrust Digital Library )
 -   Linked-data compliant (JSON-LD)
+-   Complete documentation available at [https://go.illinois.edu/EF20_documentation](https://go.illinois.edu/EF20_documentation)
 
-## HTRC Extracted Features (EF)
+## What are "Extracted Features"?
 
-The features are:
+Extracted features are computationally accessible data elements “extracted” (i.e., “derived”) from the HathiTrust Digital Library. They include:
 
--   Volume- and page-level
--   Selected data and metadata
--   Extracted from raw text
+-   Volume- and page-level metadata
+-   Textual and statistical data and word-level metadata
+-   Extracted from the raw full text of volumes in the Digital Library
 
-Position the researcher to begin analysis
-
--   Some standard natural language & statistical preprocessing is already done
+EF positions researchers to access the data they need and begin their analysis of text with some standard natural language & statistical preprocessing already done for them.
 
 ## Per-volume features
 
@@ -26,51 +25,61 @@ Excerpted from catalog metadata, including:
 -   Title
 -   Author
 -   Language
--   Publication data
+-   Publication information
 -   Identifiers
--   \[Subjects\]
+-   \[in future releases: Subjects\]
+
+![](images/ef_file.png)
+
+Diagram of an EF file.
 
 ![](images/ef.png)
+JSON pretty print view of an EF file
 
-> **HTRC Extracted Features API documentation is available [here](https://htrc.stoplight.io/docs/ef-api/06db4dc572b49-ef)**
+Newly available as part of the TORCHLITE framework (but not yet included in older EF versions):
+-   Token counts aggregated by volume.
 
-## API CALLS
+## TORCHLITE API
+
+HTRC Extracted Features API [documentation](https://htrc.stoplight.io/docs/ef-api/06db4dc572b49-ef)
+
+### API CALLS
 
 -   **GET** EF data for a volume by volume id
 
-    -   https://tools.htrc.illinois.edu/ef-api/volumes/{clean-htid}
+    -   https://data.htrc.illinois.edu/ef-api/volumes/{clean-htid}
 
 -   Check if a volume exists (**HEAD**)
 
-    -   https://tools.htrc.illinois.edu/ef-api/volumes/{clean-htid}
+    -   https://data.htrc.illinois.edu/ef-api/volumes/{clean-htid}
 
 -   **GET** volume metadata by volume id
 
-    -   https://tools.htrc.illinois.edu/ef-api/volumes/{clean-htid}/metadata
+    -   https://data.htrc.illinois.edu/ef-api/volumes/{clean-htid}/metadata
 
 -   **GET** subset of pages of volume by volume id
 
-    -    https://tools.htrc.illinois.edu/ef-api/volumes/{clean-htid}/pages
+    -    https://data.htrc.illinois.edu/ef-api/volumes/{clean-htid}/pages
 
 -   Create workset (**POST**)
 
-    -   https://tools.htrc.illinois.edu/ef-api/worksets
+    -   https://data.htrc.illinois.edu/ef-api/worksets
 
 -   **DELETE** workset by workset id
 
-    -   https://tools.htrc.illinois.edu/ef-api/worksets/{workset-id}
+    -   https://data.htrc.illinois.edu/ef-api/worksets/{workset-id}
 
 -   **GET** workset
 
-    -   https://tools.htrc.illinois.edu/ef-api/worksets/{workset-id}
+    -   https://data.htrc.illinois.edu/ef-api/worksets/{workset-id}
 
 -    **GET** workset volumes by workset id
 
-     -   https://tools.htrc.illinois.edu/ef-api/worksets/{workset-id}/volumes
+     -   https://data.htrc.illinois.edu/ef-api/worksets/{workset-id}/volumes
 
 -    **GET** workset volumes metadata by workset id o
 
-     -   https://tools.htrc.illinois.edu/ef-api/worksets/{workset-id}/metadata
+     -   https://data.htrc.illinois.edu/ef-api/worksets/{workset-id}/metadata
 
 ## OBSERVABLE Notebooks
 
