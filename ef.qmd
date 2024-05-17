@@ -39,9 +39,14 @@ JSON pretty print view of an EF file
 Newly available as part of the TORCHLITE framework (but not yet included in older EF versions):
 -   Token counts aggregated by volume.
 
-## TORCHLITE API
+## Extracted Features API
 
-HTRC Extracted Features API [documentation](https://htrc.stoplight.io/docs/ef-api/06db4dc572b49-ef)
+![](images/torchlite_diagram.jpg)
+
+The Extracted Features API allows programmatic access to the Extracted Features Files and not only enables HTRC's TORCHLITE dashboard, but also allows users to connect their own code notebooks, widgets, or applications.
+
+The [EF API  Documentation](https://htrc.stoplight.io/docs/ef-api/06db4dc572b49-ef) fully documents the available API calls and allows users to request sample calls in a number of different coding languages.
+
 
 ### API CALLS
 
