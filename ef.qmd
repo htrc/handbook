@@ -81,6 +81,10 @@ The [EF API  Documentation](https://htrc.stoplight.io/docs/ef-api/06db4dc572b49-
 -    **GET** workset volumes by workset id
 
      -   https://data.htrc.illinois.edu/ef-api/worksets/{workset-id}/volumes
+     
+-    **GET** workset volumes(aggregated) by workset id
+
+     -   https://data.htrc.illinois.edu/ef-api/worksets/{workset-id}/volumes/aggregated
 
 -    **GET** workset volumes metadata by workset id o
 
