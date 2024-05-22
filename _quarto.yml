@@ -27,6 +27,7 @@ book:
     - widget.qmd
     - technical-background.qmd
     - publications.qmd
+    - people.qmd
     - links.qmd
 
 format:

@@ -1,0 +1,26 @@
+# Team {#sec-8}
+
+- John Walsh (HTRC Director, Indiana University)
+
+- J. Stephen Downie (HTRC Co-Director, University of Illinois)
+
+- Janet Swatscheno (HTRC Associate Director for Outreach and Education Services, HathiTrust)
+
+- Glen Layne-Worthey (HTRC Associate Director for Research Support Services, University of Illinois)
+
+- Jennifer Christie (Associate UX Specialist, HTRC)
+
+- Boris Capitanu (Senior Research Developer)
+
+- Ryan Dubnicek (Digital Humanities Specialist, HTRC)
+
+- Deren Kudeki (Visiting Research Programmer, HTRC)
+
+- Manika Lamba (Postdoctoral Research Associate, University of Illinois)
+
+- Sriram Reddy Pidaparthi (Indiana University)
+
+- Pooja Tippur Shashidhar (Indiana University)
+
+
+![](images/footer.png){fig-align="center"}
