@@ -29,6 +29,7 @@ book:
     - publications.qmd
     - people.qmd
     - links.qmd
+    - showcase.qmd
 
 format:
   html:
