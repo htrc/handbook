@@ -1,4 +1,6 @@
-# Team {#sec-8}
+## People Involved {sec-8}
+
+## Organizers
 
 - John Walsh (HTRC Director, Indiana University)
 
@@ -21,6 +23,132 @@
 - Sriram Reddy Pidaparthi (Indiana University)
 
 - Pooja Tippur Shashidhar (Indiana University)
+
+## Participants
+
+- Gyuri Kang
+- Tim Bowman
+- Matthew Butler
+- Rafia Mirza
+- Isaac Wink
+- Haiqi Zhou
+- Kai Li
+- Jeremiah Lateef
+- Savannah Scott
+- Chao Liu
+- Lianet Sepulveda Torres
+- Brice Bowrey
+- Brady Krien
+- Christopher Jimenez
+- Livia Clarete
+- Joshua Eckroth
+- Dolsy Smith
+- Danielle Nasenbeny
+- Richard Young
+- Tess McNulty
+- Eryclis Silva
+- Xuhan Zhang
+- Felix Oke
+- Becca Cohen
+- Grant Simpson
+- Daniel Evans
+- Peizhen Wu
+- Sarah Griebel
+- Ben Lee
+- Nikolaus Parulian
+- Deepanshu Malhotra
+- Jill Naiman
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ![](images/footer.png){fig-align="center"}
