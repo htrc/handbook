@@ -2,7 +2,7 @@
 
 ## HTRC Extracted Features (EF) Dataset
 
--   Open access under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/), and freely [downloadable](https://analytics.hathitrust.org/datasets)
+-   Open access under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/), and freely [downloadable](https://analytics.hathitrust.org/deriveddatasets)
 -   Structured data consisting of human-created (catalog) metadata and algorithmically-derived features
 -   Representing 17.1 million volumes, including those still under copyright (i.e., not quite in sync with the HathiTrust Digital Library )
 -   Linked-data compliant (JSON-LD)

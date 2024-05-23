@@ -2,7 +2,7 @@
 
 > *Tools for Open Research and Computation with HathiTrust: Leveraging Intelligent Text Extraction (TORCHLITE)*
 
-The TORCHLITE project extends volume-level, page-level, and fine-grain access to our [Extracted Features (EF) dataset](https://analytics.hathitrust.org/datasets), which contains metadata and statistical information extracted from the full-text data representing 17.5 million digitized volumes in the HathiTrust Digital Library. As part of TORCHLITE, HTRC has developed a well-documented API to allow our user community to develop its own tools for interacting with data. We are also developing a web-based, interactive visualization dashboard using the API.
+The TORCHLITE project extends volume-level, page-level, and fine-grain access to our [Extracted Features (EF) dataset](https://analytics.hathitrust.org/deriveddatasets), which contains metadata and statistical information extracted from the full-text data representing 17.5 million digitized volumes in the HathiTrust Digital Library. As part of TORCHLITE, HTRC has developed a well-documented API to allow our user community to develop its own tools for interacting with data. We are also developing a web-based, interactive visualization dashboard using the API.
 
 Through this hackathon, we aim to develop and promote these tools and the API. The EF dataset contains nearly 3 trillion tokens representing over 6 billion pages, making it arguably the largest open dataset of its kind readily available to digital humanities and other scholars in the world.
 
